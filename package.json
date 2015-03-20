@@ -7,7 +7,10 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "~4.9.x"
+    "cron": "^1.0.9",
+    "express": "~4.9.x",
+    "moment": "^2.9.0",
+    "twit": "^1.1.20"
   },
   "engines": {
     "node": "0.10.x"
@@ -21,5 +24,8 @@
     "heroku",
     "express"
   ],
+  "scripts": {
+    "start": "node bin/index"
+  },
   "license": "MIT"
 }
