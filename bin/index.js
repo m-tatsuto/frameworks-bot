@@ -37,6 +37,7 @@ var frameworkTweets = [
  "Yeoman #Tool #npm #Web\n\nTHE WEB'S SCAFFOLDING TOOL FOR MODERN WEBAPPS\n\nhttp://yeoman.io/",
  "Bower #Tool #npm #Web\n\nA package manager for the web\n\nhttp://bower.io",
  "Grunt #Tool #Javascript #npm\n\nThe JavaScript Task Runner\n\nhttp://gruntjs.com",
+ "Eclipse #Tool #Development\n\nAn amazing open source community of Tools, Projects and Collaborative Working Groups.\n\nhttp://eclipse.org",
 ];
 
 var T = new Twit({
