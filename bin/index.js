@@ -33,7 +33,8 @@ var frameworkTweets = [
  "sensu #Monitoring #Framework\n\nThe open source monitoring framework.\n\nhttp://sensuapp.org/",
  "KILL BILL #Billing #Payment #Platform\n\nOpen Source Subscription Billing & Payment Platform.\n\nhttp://killbill.io/",
  "testmunk #Service #Test\n\nTHE FASTEST WAY TO TEST YOUR APP\n\nhttp://testmunk.com/",
- "UNDERSCORES #Wordpress #Theme\n\nCREATE YOUR UNDERSCORES BASED THEME\n\nhttp://underscores.me/"
+ "UNDERSCORES #Wordpress #Theme\n\nCREATE YOUR UNDERSCORES BASED THEME\n\nhttp://underscores.me/",
+ "Yeoman #Tool #npm #Web\n\nTHE WEB'S SCAFFOLDING TOOL FOR MODERN WEBAPPS\n\nhttp://yeoman.io/"
 ];
 
 var T = new Twit({
