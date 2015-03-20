@@ -25,7 +25,9 @@ var frameworkTweets = [
  "Aurelia #Javascript #Framework\n\nAurelia is a next generation JavaScript client framework\n\nhttp://aurelia.io/",
  "Socket.io #Javascript #NodeJS\n\nFEATURING THE FASTEST AND MOST RELIABLE REAL-TIME ENGINE\n\nhttp://socket.io/",
  "OpenShift #PaaS #Redhat\n\nDEVELOP, HOST, AND SCALE YOUR APPS IN THE CLOUD\n\nhttps://www.openshift.com/",
- "Heroku #PaaS\n\nFocus on the app\n\nhttp://heroku.com/"
+ "Heroku #PaaS\n\nFocus on the app\n\nhttp://heroku.com/",
+ "bitbucket #Git #code#hosting\n\nBitbucket is a free code DVCS hosting site for Git and Mercurial.\n\nhttps://bitbucket.org/",
+ "GitHub #Git #code#hosting\n\nBuild software better, together.\n\nhttps://github.com"
 ];
 
 var T = new Twit({
