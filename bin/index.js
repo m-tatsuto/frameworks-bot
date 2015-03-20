@@ -34,7 +34,9 @@ var frameworkTweets = [
  "KILL BILL #Billing #Payment #Platform\n\nOpen Source Subscription Billing & Payment Platform.\n\nhttp://killbill.io/",
  "testmunk #Service #Test\n\nTHE FASTEST WAY TO TEST YOUR APP\n\nhttp://testmunk.com/",
  "UNDERSCORES #Wordpress #Theme\n\nCREATE YOUR UNDERSCORES BASED THEME\n\nhttp://underscores.me/",
- "Yeoman #Tool #npm #Web\n\nTHE WEB'S SCAFFOLDING TOOL FOR MODERN WEBAPPS\n\nhttp://yeoman.io/"
+ "Yeoman #Tool #npm #Web\n\nTHE WEB'S SCAFFOLDING TOOL FOR MODERN WEBAPPS\n\nhttp://yeoman.io/",
+ "Bower #Tool #npm #Web\n\nA package manager for the web\n\nhttp://bower.io",
+ "Grunt #Tool #Javascript #npm\n\nThe JavaScript Task Runner\n\nhttp://gruntjs.com",
 ];
 
 var T = new Twit({
