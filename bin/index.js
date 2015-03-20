@@ -15,7 +15,7 @@ var frameworkTweets = [
  "BootStrap #HTML #CSS\n\n HTML,CSS,JS framework for developing responsive, mobile first projects on the web.\n\nhttp://getbootstrap.com/",
  "Sinatra #Ruby #Framework\n\nDSL for quickly creating web applications \n\nhttp://www.sinatrarb.com/",
  "Backbone.js #Javascript #Framework\n\n\n\nhttp://backbonejs.org/",
- "jQuery #Javascript\n\nFast, small, and feature-rich JavaScript library\n\nhttp://jquery.com/",
+ "jQuery #Javascript #Library\n\nFast, small, and feature-rich JavaScript library\n\nhttp://jquery.com/",
  "Materialize #CSS #Framework\n\nA modern responsive front-end framework based on Material Design\n\nhttp://materializecss.com/",
  "MEAN.JS #Javascript #Framework\n\nOpen-Source Full-Stack Solution For MEAN Applications\n\nhttp://meanjs.org/",
  "Django #Python #Framework\n\nDjango makes it easier to build better Web apps more quickly and with less code.\n\nhttps://www.djangoproject.com/",
@@ -38,6 +38,7 @@ var frameworkTweets = [
  "Bower #Tool #npm #Web\n\nA package manager for the web\n\nhttp://bower.io",
  "Grunt #Tool #Javascript #npm\n\nThe JavaScript Task Runner\n\nhttp://gruntjs.com",
  "Eclipse #Tool #Development\n\nAn amazing open source community of Tools, Projects and Collaborative Working Groups.\n\nhttp://eclipse.org",
+ "Gitlab #Git #code #management #Tool\n\nCreate, review and deploy code together\n\nhttps://gitlab.com",
 ];
 
 var T = new Twit({
