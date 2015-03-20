@@ -1,8 +1,11 @@
 {
-  "name": "node-js-getting-started",
+  "name": "framework-bot",
   "version": "0.1.2",
   "description": "Frameworks Bot",
   "main": "app.js",
+  "scripts": {
+    "start": "node bin/index"
+  },
   "dependencies": {
     "cron": "^1.0.9",
     "express": "~4.9.x",
@@ -21,8 +24,5 @@
     "heroku",
     "express"
   ],
-  "scripts": {
-    "start": "node bin/index"
-  },
   "license": "MIT"
 }
