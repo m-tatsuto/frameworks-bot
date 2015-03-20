@@ -36,8 +36,8 @@ var T = new Twit({
 });
 
 //var cronTime = '*/10 * * * * *'; // localtest
-var cronTime = '0 */1 * * * *'; // servertest
-//var cronTime = '0 */30 * * * *'; // production
+//var cronTime = '0 */1 * * * *'; // servertest
+var cronTime = '0 */30 * * * *'; // production
 
 new CronJob({
   cronTime: cronTime,
