@@ -1,7 +1,7 @@
 {
   "name": "node-js-getting-started",
   "version": "0.1.2",
-  "description": "A sample Node.js app using Express 4",
+  "description": "Frameworks Bot",
   "main": "app.js",
   "dependencies": {
     "cron": "^1.0.9",
