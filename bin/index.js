@@ -15,7 +15,7 @@ var frameworkTweets = [
  "BootStrap #HTML #CSS\n\n HTML,CSS,JS framework for developing responsive, mobile first projects on the web.\n\nhttp://getbootstrap.com/",
  "Sinatra #Ruby #Framework\n\nDSL for quickly creating web applications \n\nhttp://www.sinatrarb.com/",
  "Backbone.js #Javascript #Framework\n\n\n\nhttp://backbonejs.org/",
- "jQuery #Javascript\n\n Fast, small, and feature-rich JavaScript library\n\nhttp://jquery.com/",
+ "jQuery #Javascript\n\nFast, small, and feature-rich JavaScript library\n\nhttp://jquery.com/",
  "Materialize #CSS #Framework\n\nA modern responsive front-end framework based on Material Design\n\nhttp://materializecss.com/",
  "MEAN.JS #Javascript #Framework\n\nOpen-Source Full-Stack Solution For MEAN Applications\n\nhttp://meanjs.org/",
  "Django #Python #Framework\n\nDjango makes it easier to build better Web apps more quickly and with less code.\n\nhttps://www.djangoproject.com/",
