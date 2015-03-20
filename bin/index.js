@@ -24,10 +24,9 @@ var frameworkTweets = [
  "CapeDwarf \n\nCapeDwarf is an open-source alternative to Google App Engine #GoogleAppEngine\n\nhttp://capedwarf.org/",
  "Aurelia \n\nAurelia is a next generation JavaScript client framework #Javascript #Framework\n\nhttp://aurelia.io/",
  "Socket.io \n\nFEATURING THE FASTEST AND MOST RELIABLE REAL-TIME ENGINE #Javascript #NodeJS\n\nhttp://socket.io/",
-
  "OpenShift \n\nDEVELOP, HOST, AND SCALE YOUR APPS IN THE CLOUD #PaaS #Redhat\n\nhttps://www.openshift.com/",
- "Heroku \n\nFocus on the app #PaaS\n\nhttp://heroku.com/",
-]
+ "Heroku \n\nFocus on the app #PaaS\n\nhttp://heroku.com/"
+];
 
 var T = new Twit({
   consumer_key: app.get('options').key,
