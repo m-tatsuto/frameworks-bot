@@ -2,7 +2,7 @@
   "name": "node-js-getting-started",
   "version": "0.1.2",
   "description": "A sample Node.js app using Express 4",
-  "main": "index.js",
+  "main": "app.js",
   "dependencies": {
     "cron": "^1.0.9",
     "express": "~4.9.x",
