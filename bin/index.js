@@ -31,7 +31,8 @@ var frameworkTweets = [
  "Slack #Tool #Development\n\nWe’re on a mission to make your working life simpler, more pleasant and more productive.\n\nhttps://slack.com",
  "Sauce Labs #Service #Test #Development\n\nAutomated testing in the cloud for CI.\n\nhttps://saucelabs.com/",
  "sensu #Monitoring #Framework\n\nThe open source monitoring framework.\n\nhttp://sensuapp.org/",
- "KILL BILL #Billing #Payment #Platform\n\nOpen Source Subscription Billing & Payment Platform.\n\nhttp://sensuapp.org/",
+ "KILL BILL #Billing #Payment #Platform\n\nOpen Source Subscription Billing & Payment Platform.\n\nhttp://killbill.io/",
+ "testmunk #Service #Test\n\nTHE FASTEST WAY TO TEST YOUR APP\n\nhttp://testmunk.com/",
 ];
 
 var T = new Twit({
