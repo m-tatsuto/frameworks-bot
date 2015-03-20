@@ -28,7 +28,8 @@ var frameworkTweets = [
  "Heroku #PaaS\n\nFocus on the app\n\nhttp://heroku.com/",
  "bitbucket #Git #code#hosting\n\nBitbucket is a free code DVCS hosting site for Git and Mercurial.\n\nhttps://bitbucket.org/",
  "GitHub #Git #code#hosting\n\nBuild software better, together.\n\nhttps://github.com",
- "Slack #Tool #Development\n\nWe’re on a mission to make your working life simpler, more pleasant and more productive.\n\nhttps://slack.com"
+ "Slack #Tool #Development\n\nWe’re on a mission to make your working life simpler, more pleasant and more productive.\n\nhttps://slack.com",
+ "Sauce Labs #Service #Test #Development\n\nAutomated testing in the cloud for CI.\n\nhttps://saucelabs.com/"
 ];
 
 var T = new Twit({
