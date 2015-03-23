@@ -5,12 +5,12 @@ var moment = require('moment');
 //var http = require('http');
 
 var frameworkTweets = [
- "Phalcon #PHP #Framework\nThe fastest PHP Framework.\n\nhttp://phalconphp.com/ \n\n",
- "AngularJS #Javascript #Framework\nHTML enhanced for web apps!\n\nhttps://angularjs.org/",
- "Laravel #PHP #Framework\nThe PHP Framework For Web Artisans\n\nhttp://laravel.com/",
- "Play #Java #Scala #Framework\nThe High Velocity Web Framework For Java and Scala\n\nhttps://www.playframework.com/",
- "Ruby on Rails #Ruby #Framework\nWeb development that doesn’t hurt\n\nhttp://rubyonrails.org/",
- "CakePHP #PHP #Framework\n\n\nhttp://cakephp.org/",
+ "Phalcon #PHP #Framework\nThe fastest PHP Framework.\n\nhttp://phalconphp.com/ @phalconphp",
+ "AngularJS #Javascript #Framework\nHTML enhanced for web apps!\n\nhttps://angularjs.org/ @angularjs",
+ "Laravel #PHP #Framework\nThe PHP Framework For Web Artisans\n\nhttp://laravel.com/ @laravelphp",
+ "Play #Java #Scala #Framework\nThe High Velocity Web Framework For Java and Scala\n\nhttps://www.playframework.com/ @playframework",
+ "Ruby on Rails #Ruby #Framework\nWeb development that doesn’t hurt\n\nhttp://rubyonrails.org/ @rails",
+ "CakePHP #PHP #Framework\n\n\nhttp://cakephp.org/ @cakephp",
  "Underscore.js #Javascript #Framework\n\n\nhttp://underscorejs.org/",
  "BootStrap #HTML #CSS\n HTML,CSS,JS framework for developing responsive, mobile first projects on the web.\n\nhttp://getbootstrap.com/",
  "Sinatra #Ruby #Framework\nDSL for quickly creating web applications \n\nhttp://www.sinatrarb.com/",
