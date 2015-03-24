@@ -39,7 +39,8 @@ var frameworkTweets = [
  "Grunt #Tool #Javascript #npm\nThe JavaScript Task Runner\n\nhttp://gruntjs.com",
  "Eclipse #Tool #Development\nAn amazing open source community of Tools, Projects and Collaborative Working Groups.\n\nhttp://eclipse.org",
  "Gitlab #Git #code #management #Tool\nCreate, review and deploy code together\n\nhttps://gitlab.com @gitlab",
- "AMIMOTO #WordPress #AMI #AWS #Nginx\nHigh Performance WordPress Cloud Hosting\n\nhttp://amimoto-ami.com/"
+ "AMIMOTO #WordPress #AMI #AWS #Nginx\nHigh Performance WordPress Cloud Hosting\n\nhttp://amimoto-ami.com/",
+ "flapjack.io #monitoring #Tool #Vagrant\nmonitoring notification routing + event processing system\n\nhttp://flapjack.io/"
 ];
 
 var T = new Twit({
