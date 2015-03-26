@@ -29,7 +29,7 @@ var frameworkTweets = [
  "bitbucket #Git #code#hosting\nBitbucket is a free code DVCS hosting site for Git and Mercurial.\n\nhttps://bitbucket.org/",
  "GitHub #Git #code#hosting\nBuild software better, together.\n\nhttps://github.com",
  "Slack #Tool #Development\nWe’re on a mission to make your working life simpler, more pleasant and more productive.\n\nhttps://slack.com",
- "Sauce Labs #Service #Test #Development\nAutomated testing in the cloud for CI.\n\nhttps://saucelabs.com/",
+ "Sauce Labs #Service #Test #Development\nAutomated testing in the cloud for CI.\n\nhttps://saucelabs.com/ @saucelabs",
  "sensu #Monitoring #Framework\nThe open source monitoring framework.\n\nhttp://sensuapp.org/",
  "KILL BILL #Billing #Payment #Platform\nOpen Source Subscription Billing & Payment Platform.\n\nhttp://killbill.io/",
  "testmunk #Service #Test\nTHE FASTEST WAY TO TEST YOUR APP\n\nhttp://testmunk.com/",
