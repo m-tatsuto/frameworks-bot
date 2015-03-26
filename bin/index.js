@@ -42,7 +42,8 @@ var frameworkTweets = [
  "AMIMOTO #WordPress #AMI #AWS #Nginx\nHigh Performance WordPress Cloud Hosting\n\nhttp://amimoto-ami.com/",
  "flapjack.io #monitoring #Tool #Vagrant\nmonitoring notification routing + event processing system\n\nhttp://flapjack.io/",
  "RECAPTCHA #Security \nProtect your website from spam and abuse while letting real people pass through with ease\n\nhttp://goo.gl/2s0Mci",
- "Chaplin #Javascript #bower\nChaplin is an architecture for JavaScript applications using the Backbone.js.\n\nhttp://chaplinjs.org/"
+ "Chaplin #Javascript #bower\nChaplin is an architecture for JavaScript applications using the Backbone.js.\n\nhttp://chaplinjs.org/",
+ "gulpjs #nodejs #workflow #Automate\nAutomate and enhance your workflow\n\nhttp://gulpjs.com/ @gulpjs"
 ];
 
 var T = new Twit({
