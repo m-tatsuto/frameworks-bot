@@ -45,7 +45,8 @@ var frameworkTweets = [
  "Chaplin #Javascript #bower\nChaplin is an architecture for JavaScript applications using the Backbone.js.\n\nhttp://chaplinjs.org/",
  "gulpjs #nodejs #workflow #Automate\nAutomate and enhance your workflow\n\nhttp://gulpjs.com/ @gulpjs",
  "RethinkDB #Database\nAn open-source distributed database built with love.\n\nhttp://www.rethinkdb.com/",
- "Capybara #Ruby #Test\nTest your app with Capybara\ngem install capybara\n\nhttp://jnicklas.github.io/capybara/"
+ "Capybara #Ruby #Test\nTest your app with Capybara\ngem install capybara\n\nhttp://jnicklas.github.io/capybara/",
+ "Slim #PHP\na PHP micro framework that helps you quickly write simple yet powerful web applications and APIs\n\nhttp://goo.gl/2hXfB9"
 ];
 
 var T = new Twit({
