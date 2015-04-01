@@ -48,7 +48,8 @@ var frameworkTweets = [
  "Capybara #Ruby #Test\nTest your app with Capybara\ngem install capybara\n\nhttp://jnicklas.github.io/capybara/",
  "Slim #PHP\na PHP micro framework that helps you quickly write simple yet powerful web applications and APIs\n\nhttp://goo.gl/2hXfB9",
  "Bourbon #CSS #Sass #Library\nA simple and lightweight mixin library for Sass.\n\nhttp://bourbon.io/",
- "Deployd #API #Design #Build #Opensource\nTHE SIMPLEST WAY TO BUILD AN API.\n\nhttp://deployd.com/ @deploydapp"
+ "Deployd #API #Design #Build #Opensource\nTHE SIMPLEST WAY TO BUILD AN API.\n\nhttp://deployd.com/ @deploydapp",
+ "Ionic #hybrid #mobile #platform #SDK\nThe world's first full-stack hybrid mobile platform\n\nhttp://ionic.io/"
 ];
 
 var T = new Twit({
