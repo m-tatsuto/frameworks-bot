@@ -51,7 +51,8 @@ var frameworkTweets = [
  "Bourbon #CSS #Sass #Library\nA simple and lightweight mixin library for Sass.\n\nhttp://bourbon.io/",
  "Deployd #API #Design #Build #Opensource\nTHE SIMPLEST WAY TO BUILD AN API.\n\nhttp://deployd.com/ @deploydapp",
  "Ionic #hybrid #mobile #platform #SDK\nThe world's first full-stack hybrid mobile platform\n\nhttp://ionic.io/ @Ionicframework",
- "tsuru #Paas #Opensource\nTsuru is an extensible and open source Platform as a Service software.\n\nhttps://tsuru.io/"
+ "tsuru #Paas #Opensource\nTsuru is an extensible and open source Platform as a Service software.\n\nhttps://tsuru.io/",
+ "Gunicorn #Python #WSGI\nGunicorn 'Green Unicorn' is a Python WSGI HTTP Server for UNIX.\n\nhttp://gunicorn.org/"
 ];
 
 var T = new Twit({
