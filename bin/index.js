@@ -18,6 +18,7 @@ var frameworkTweets = [
  "jQuery #Javascript #Library\nFast, small, and feature-rich JavaScript library\n\nhttp://jquery.com/",
  "Materialize #CSS #Framework\nA modern responsive front-end framework based on Material Design\n\nhttp://materializecss.com/",
  "MEAN.JS #Javascript #Framework\nOpen-Source Full-Stack Solution For MEAN Applications\n\nhttp://meanjs.org/",
+ "MEAN.IO #Javascript #Framework\nMEAN is an opinionated fullstack javascript framework\n\nhttp://mean.io/",
  "Django #Python #Framework\nDjango makes it easier to build better Web apps more quickly and with less code.\n\nhttps://www.djangoproject.com/",
  "Drupal #CMS #Framework\nCome for the software, stay for the community\n\nhttps://www.drupal.org/",
  "CodeIgniter #PHP #Framework\n\n\nhttp://www.codeigniter.com/",
