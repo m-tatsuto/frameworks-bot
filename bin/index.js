@@ -9,7 +9,6 @@ var frameworkTweets = [
   "Phalcon #PHP #Framework\nThe fastest PHP Framework.\n\nhttp://phalconphp.com/ @phalconphp",
   "Laravel #PHP #Framework\nThe PHP Framework For Web Artisans\n\nhttp://laravel.com/ @laravelphp",
   "Play #Java #Scala #Framework\nThe High Velocity Web Framework For Java and Scala\n\nhttps://www.playframework.com/ @playframework",
-  "Ruby on Rails #Ruby #Framework\nWeb development that doesn’t hurt\n\nhttp://rubyonrails.org/ @rails",
   "Underscore.js #Javascript #Framework\n\n\nhttp://underscorejs.org/",
   "Sinatra #Ruby #Framework\nDSL for quickly creating web applications \n\nhttp://www.sinatrarb.com/",
   "jQuery #Javascript #Library\nFast, small, and feature-rich JavaScript library\n\nhttp://jquery.com/",
@@ -58,7 +57,8 @@ var imageContentTweets = [
   ["bin/image/heroku.png",     "Heroku http://heroku.com/ @heroku #PaaS\nFocus on the app"],
   ["bin/image/grunt.png",      "Grunt http://gruntjs.com @gruntjs #Tool #Javascript #npm\nThe JavaScript Task Runner"],
   ["bin/image/backbonejs.png", "Backbone.js http://backbonejs.org/ #Javascript #Framework"],
-  ["bin/image/bootstrap.png",  "BootStrap http://getbootstrap.com/ @getbootstrap #HTML #CSS\nDesigned for everyone, everywhere."]
+  ["bin/image/bootstrap.png",  "BootStrap http://getbootstrap.com/ @getbootstrap #HTML #CSS\nDesigned for everyone, everywhere."],
+  ["bin/image/rails.png",      "Ruby on Rails http://rubyonrails.org/ @rails #Ruby #Framework\nWeb development that doesn’t hurt"]
 ];
 
 var T = new Twit({
