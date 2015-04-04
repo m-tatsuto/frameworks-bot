@@ -19,7 +19,6 @@ var frameworkTweets = [
   "Drupal #CMS #Framework\nCome for the software, stay for the community\n\nhttps://www.drupal.org/",
   "CodeIgniter #PHP #Framework\n\n\nhttp://www.codeigniter.com/",
   "CapeDwarf #GoogleAppEngine\nCapeDwarf is an open-source alternative to Google App Engine\n\nhttp://capedwarf.org/",
-  "Aurelia #Javascript #Framework\nAurelia is a next generation JavaScript client framework\n\nhttp://aurelia.io/",
   "Socket.io #Javascript #NodeJS\nFEATURING THE FASTEST AND MOST RELIABLE REAL-TIME ENGINE\n\nhttp://socket.io/",
   "OpenShift #PaaS #Redhat\nDEVELOP, HOST, AND SCALE YOUR APPS IN THE CLOUD\n\nhttps://www.openshift.com/",
   "bitbucket #Git #code#hosting\nBitbucket is a free code DVCS hosting site for Git and Mercurial.\n\nhttps://bitbucket.org/",
