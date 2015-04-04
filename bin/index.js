@@ -58,7 +58,8 @@ var imageContentTweets = [
   ["bin/image/backbonejs.png", "Backbone.js http://backbonejs.org/ #Javascript #Framework"],
   ["bin/image/bootstrap.png",  "BootStrap http://getbootstrap.com/ @getbootstrap #HTML #CSS\nDesigned for everyone, everywhere."],
   ["bin/image/rails.png",      "Ruby on Rails http://rubyonrails.org/ @rails #Ruby #Framework\nWeb development that doesn’t hurt"],
-  ["bin/image/gitlab.png",     "Gitlab https://gitlab.com @gitlab #Git #code #management\nCreate, review and deploy code together"]
+  ["bin/image/gitlab.png",     "Gitlab https://gitlab.com @gitlab #Git #code #management\nCreate, review and deploy code together"],
+  ["bin/image/Aurelia.png",    "Aurelia http://aurelia.io/ #Javascript #Framework\nAurelia is a next generation JavaScript client framework"]
 ];
 
 var T = new Twit({
@@ -75,8 +76,8 @@ var cronTime = '0 */30 * * * *'; // production
 new CronJob({
   cronTime: cronTime,
   onTick: function () {
-    var rnd = Math.floor( Math.random() * 5 );
-  	if (rnd < 4) {
+    var rnd = Math.floor( Math.random() * 4 );
+  	if (rnd < 3) {
   		tweet();
   	} else {
   		imageTweet();
