@@ -11,7 +11,6 @@ var frameworkTweets = [
   "Play #Java #Scala #Framework\nThe High Velocity Web Framework For Java and Scala\n\nhttps://www.playframework.com/ @playframework",
   "Ruby on Rails #Ruby #Framework\nWeb development that doesn’t hurt\n\nhttp://rubyonrails.org/ @rails",
   "Underscore.js #Javascript #Framework\n\n\nhttp://underscorejs.org/",
-  "BootStrap #HTML #CSS\n HTML,CSS,JS framework for developing responsive, mobile first projects on the web.\n\nhttp://getbootstrap.com/",
   "Sinatra #Ruby #Framework\nDSL for quickly creating web applications \n\nhttp://www.sinatrarb.com/",
   "jQuery #Javascript #Library\nFast, small, and feature-rich JavaScript library\n\nhttp://jquery.com/",
   "Materialize #CSS #Framework\nA modern responsive front-end framework based on Material Design\n\nhttp://materializecss.com/",
