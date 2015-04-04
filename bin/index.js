@@ -13,7 +13,6 @@ var frameworkTweets = [
   "Underscore.js #Javascript #Framework\n\n\nhttp://underscorejs.org/",
   "BootStrap #HTML #CSS\n HTML,CSS,JS framework for developing responsive, mobile first projects on the web.\n\nhttp://getbootstrap.com/",
   "Sinatra #Ruby #Framework\nDSL for quickly creating web applications \n\nhttp://www.sinatrarb.com/",
-  "Backbone.js #Javascript #Framework\n\n\nhttp://backbonejs.org/",
   "jQuery #Javascript #Library\nFast, small, and feature-rich JavaScript library\n\nhttp://jquery.com/",
   "Materialize #CSS #Framework\nA modern responsive front-end framework based on Material Design\n\nhttp://materializecss.com/",
   "MEAN.JS #Javascript #Framework\nOpen-Source Full-Stack Solution For MEAN Applications\n\nhttp://meanjs.org/",
@@ -52,13 +51,15 @@ var frameworkTweets = [
 ];
 
 var imageContentTweets = [
-  ["bin/image/seldon.png", "seldon #OpenPredictive #Platform\nhttp://www.seldon.io/"],
-  ["bin/image/slack.png", "Slack https://slack.com\nWe’re on a mission to make your working life simpler, more pleasant, more productive"],
-  ["bin/image/github.png", "GitHub https://github.com #Git #code #hosting\nBuild software better, together."],
-  ["bin/image/angularjs.png", "AngularJS https://angularjs.org/ @angularjs #Javascript #Framework\nHTML enhanced for web apps!"],
-  ["bin/image/cakephp.png", "CakePHP http://cakephp.org/ @cakephp #PHP #Framework"],
-  ["bin/image/heroku.png", "Heroku http://heroku.com/ @heroku #PaaS\nFocus on the app"],
-  ["bin/image/grunt.png", "Grunt http://gruntjs.com @gruntjs #Tool #Javascript #npm\nThe JavaScript Task Runner"]
+  ["bin/image/seldon.png",     "seldon #OpenPredictive #Platform\nhttp://www.seldon.io/"],
+  ["bin/image/slack.png",      "Slack https://slack.com\nWe’re on a mission to make your working life simpler, more pleasant, more productive"],
+  ["bin/image/github.png",     "GitHub https://github.com #Git #code #hosting\nBuild software better, together."],
+  ["bin/image/angularjs.png",  "AngularJS https://angularjs.org/ @angularjs #Javascript #Framework\nHTML enhanced for web apps!"],
+  ["bin/image/cakephp.png",    "CakePHP http://cakephp.org/ @cakephp #PHP #Framework"],
+  ["bin/image/heroku.png",     "Heroku http://heroku.com/ @heroku #PaaS\nFocus on the app"],
+  ["bin/image/grunt.png",      "Grunt http://gruntjs.com @gruntjs #Tool #Javascript #npm\nThe JavaScript Task Runner"],
+  ["bin/image/backbonejs.png", "Backbone.js http://backbonejs.org/ #Javascript #Framework"],
+  ["bin/image/bootstrap.png",  "BootStrap http://getbootstrap.com/ @getbootstrap #HTML #CSS\nDesigned for everyone, everywhere."]
 ];
 
 var T = new Twit({
@@ -75,8 +76,8 @@ var cronTime = '0 */30 * * * *'; // production
 new CronJob({
   cronTime: cronTime,
   onTick: function () {
-    var rnd = Math.floor( Math.random() * 7 );
-  	if (rnd < 6) {
+    var rnd = Math.floor( Math.random() * 5 );
+  	if (rnd < 4) {
   		tweet();
   	} else {
   		imageTweet();
