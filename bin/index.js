@@ -58,7 +58,7 @@ var frameworkTweets = [
 ];
 
 var imageContentTweets = [
-  ["bin/image/seldon.png", "seldon\nhttp://www.seldon.io/"],
+  ["bin/image/seldon.png", "seldon #OpenPredictive #Platform\nhttp://www.seldon.io/"],
 ];
 
 var T = new Twit({
