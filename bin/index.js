@@ -26,7 +26,6 @@ var frameworkTweets = [
   "Aurelia #Javascript #Framework\nAurelia is a next generation JavaScript client framework\n\nhttp://aurelia.io/",
   "Socket.io #Javascript #NodeJS\nFEATURING THE FASTEST AND MOST RELIABLE REAL-TIME ENGINE\n\nhttp://socket.io/",
   "OpenShift #PaaS #Redhat\nDEVELOP, HOST, AND SCALE YOUR APPS IN THE CLOUD\n\nhttps://www.openshift.com/",
-  "Heroku #PaaS\nFocus on the app\n\nhttp://heroku.com/",
   "bitbucket #Git #code#hosting\nBitbucket is a free code DVCS hosting site for Git and Mercurial.\n\nhttps://bitbucket.org/",
   "Sauce Labs #Service #Test #Development\nAutomated testing in the cloud for CI.\n\nhttps://saucelabs.com/ @saucelabs",
   "sensu #Monitoring #Framework\nThe open source monitoring framework.\n\nhttp://sensuapp.org/",
@@ -59,7 +58,8 @@ var imageContentTweets = [
   ["bin/image/slack.png", "Slack https://slack.com\nWe’re on a mission to make your working life simpler, more pleasant, more productive"],
   ["bin/image/github.png", "GitHub https://github.com #Git #code #hosting\nBuild software better, together."],
   ["bin/image/angularjs.png", "AngularJS https://angularjs.org/ @angularjs #Javascript #Framework\nHTML enhanced for web apps!"],
-  ["bin/image/cakephp.png", "CakePHP http://cakephp.org/ @cakephp #PHP #Framework"]
+  ["bin/image/cakephp.png", "CakePHP http://cakephp.org/ @cakephp #PHP #Framework"],
+  ["bin/image/heroku.png", "Heroku http://heroku.com/ @heroku #PaaS\nFocus on the app"]
 ];
 
 var T = new Twit({
@@ -76,8 +76,8 @@ var cronTime = '0 */30 * * * *'; // production
 new CronJob({
   cronTime: cronTime,
   onTick: function () {
-    var rnd = Math.floor( Math.random() * 10 );
-  	if (rnd < 9) {
+    var rnd = Math.floor( Math.random() * 8 );
+  	if (rnd < 7) {
   		tweet();
   	} else {
   		imageTweet();
