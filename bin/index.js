@@ -58,7 +58,8 @@ var imageContentTweets = [
   ["bin/image/seldon.png", "seldon #OpenPredictive #Platform\nhttp://www.seldon.io/"],
   ["bin/image/slack.png", "Slack https://slack.com\nWe’re on a mission to make your working life simpler, more pleasant, more productive"],
   ["bin/image/github.png", "GitHub https://github.com #Git #code #hosting\nBuild software better, together."],
-  ["bin/image/angularjs.png", "AngularJS https://angularjs.org/ @angularjs #Javascript #Framework\nHTML enhanced for web apps!"]
+  ["bin/image/angularjs.png", "AngularJS https://angularjs.org/ @angularjs #Javascript #Framework\nHTML enhanced for web apps!"],
+  ["bin/image/cakephp.png", "CakePHP http://cakephp.org/ @cakephp #PHP #Framework"]
 ];
 
 var T = new Twit({
@@ -75,8 +76,8 @@ var cronTime = '0 */30 * * * *'; // production
 new CronJob({
   cronTime: cronTime,
   onTick: function () {
-    var rnd = Math.floor( Math.random() * 13 );
-  	if (rnd < 12) {
+    var rnd = Math.floor( Math.random() * 10 );
+  	if (rnd < 9) {
   		tweet();
   	} else {
   		imageTweet();
