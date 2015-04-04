@@ -59,7 +59,8 @@ var imageContentTweets = [
   ["bin/image/github.png", "GitHub https://github.com #Git #code #hosting\nBuild software better, together."],
   ["bin/image/angularjs.png", "AngularJS https://angularjs.org/ @angularjs #Javascript #Framework\nHTML enhanced for web apps!"],
   ["bin/image/cakephp.png", "CakePHP http://cakephp.org/ @cakephp #PHP #Framework"],
-  ["bin/image/heroku.png", "Heroku http://heroku.com/ @heroku #PaaS\nFocus on the app"]
+  ["bin/image/heroku.png", "Heroku http://heroku.com/ @heroku #PaaS\nFocus on the app"],
+  ["bin/image/grunt.png", "Grunt http://gruntjs.com @gruntjs #Tool #Javascript #npm\nThe JavaScript Task Runner"]
 ];
 
 var T = new Twit({
@@ -76,8 +77,8 @@ var cronTime = '0 */30 * * * *'; // production
 new CronJob({
   cronTime: cronTime,
   onTick: function () {
-    var rnd = Math.floor( Math.random() * 8 );
-  	if (rnd < 7) {
+    var rnd = Math.floor( Math.random() * 7 );
+  	if (rnd < 6) {
   		tweet();
   	} else {
   		imageTweet();
