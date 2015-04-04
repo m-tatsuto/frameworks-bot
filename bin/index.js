@@ -31,7 +31,6 @@ var frameworkTweets = [
   "Yeoman #Tool #npm #Web\nTHE WEB'S SCAFFOLDING TOOL FOR MODERN WEBAPPS\n\nhttp://yeoman.io/",
   "Bower #Tool #npm #Web\nA package manager for the web\n\nhttp://bower.io",
   "Eclipse #Tool #Development\nAn amazing open source community of Tools, Projects and Collaborative Working Groups.\n\nhttp://eclipse.org",
-  "Gitlab #Git #code #management #Tool\nCreate, review and deploy code together\n\nhttps://gitlab.com @gitlab",
   "AMIMOTO #WordPress #AMI #AWS #Nginx\nHigh Performance WordPress Cloud Hosting\n\nhttp://amimoto-ami.com/",
   "flapjack.io #monitoring #Tool #Vagrant\nmonitoring notification routing + event processing system\n\nhttp://flapjack.io/",
   "RECAPTCHA #Security \nProtect your website from spam and abuse while letting real people pass through with ease\n\nhttp://goo.gl/2s0Mci",
@@ -58,7 +57,8 @@ var imageContentTweets = [
   ["bin/image/grunt.png",      "Grunt http://gruntjs.com @gruntjs #Tool #Javascript #npm\nThe JavaScript Task Runner"],
   ["bin/image/backbonejs.png", "Backbone.js http://backbonejs.org/ #Javascript #Framework"],
   ["bin/image/bootstrap.png",  "BootStrap http://getbootstrap.com/ @getbootstrap #HTML #CSS\nDesigned for everyone, everywhere."],
-  ["bin/image/rails.png",      "Ruby on Rails http://rubyonrails.org/ @rails #Ruby #Framework\nWeb development that doesn’t hurt"]
+  ["bin/image/rails.png",      "Ruby on Rails http://rubyonrails.org/ @rails #Ruby #Framework\nWeb development that doesn’t hurt"],
+  ["bin/image/gitlab.png",     "Gitlab https://gitlab.com @gitlab #Git #code #management\nCreate, review and deploy code together"]
 ];
 
 var T = new Twit({
