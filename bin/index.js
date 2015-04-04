@@ -43,7 +43,8 @@ var frameworkTweets = [
   "Ionic #hybrid #mobile #platform #SDK\nThe world's first full-stack hybrid mobile platform\n\nhttp://ionic.io/ @Ionicframework",
   "tsuru #Paas #Opensource\nTsuru is an extensible and open source Platform as a Service software.\n\nhttps://tsuru.io/",
   "Gunicorn #Python #WSGI\nGunicorn 'Green Unicorn' is a Python WSGI HTTP Server for UNIX.\n\nhttp://gunicorn.org/",
-  "Sidekiq #Ruby\nSimple, efficient background processing for Ruby.\n\nhttp://sidekiq.org/ @sidekiq"
+  "Sidekiq #Ruby\nSimple, efficient background processing for Ruby.\n\nhttp://sidekiq.org/ @sidekiq",
+  "cdnjs.com https://cdnjs.com/ #CDN #Search #JavaScript #CSS #SWF #images"
 ];
 
 var imageContentTweets = [
@@ -76,11 +77,11 @@ new CronJob({
   cronTime: cronTime,
   onTick: function () {
     var rnd = Math.floor( Math.random() * 4 );
-  	if (rnd < 3) {
-  		tweet();
-  	} else {
-  		imageTweet();
-  	}
+    if (rnd < 3) {
+      tweet();
+    } else {
+      imageTweet();
+    }
   },
   start: true
 });
@@ -91,7 +92,7 @@ function tweet(){
   console.log(message);
 
   T.post('statuses/update', { status: message }, function(err, data, response) {
-    //console.log('Tweet!');
+    console.log('Tweet!');
   });
 }
 
@@ -106,6 +107,7 @@ function imageTweet() {
     var params = { status: imageContentTweets[rnd][1], media_ids: [mediaIdStr] }
 
     T.post('statuses/update', params, function (err, data, response) {
+      console.log('Tweet!');
     })
   })
 }
