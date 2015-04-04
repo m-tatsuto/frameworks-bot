@@ -7,7 +7,6 @@ var fs = require('fs');
 
 var frameworkTweets = [
   "Phalcon #PHP #Framework\nThe fastest PHP Framework.\n\nhttp://phalconphp.com/ @phalconphp",
-  "AngularJS #Javascript #Framework\nHTML enhanced for web apps!\n\nhttps://angularjs.org/ @angularjs",
   "Laravel #PHP #Framework\nThe PHP Framework For Web Artisans\n\nhttp://laravel.com/ @laravelphp",
   "Play #Java #Scala #Framework\nThe High Velocity Web Framework For Java and Scala\n\nhttps://www.playframework.com/ @playframework",
   "Ruby on Rails #Ruby #Framework\nWeb development that doesn’t hurt\n\nhttp://rubyonrails.org/ @rails",
@@ -29,8 +28,6 @@ var frameworkTweets = [
   "OpenShift #PaaS #Redhat\nDEVELOP, HOST, AND SCALE YOUR APPS IN THE CLOUD\n\nhttps://www.openshift.com/",
   "Heroku #PaaS\nFocus on the app\n\nhttp://heroku.com/",
   "bitbucket #Git #code#hosting\nBitbucket is a free code DVCS hosting site for Git and Mercurial.\n\nhttps://bitbucket.org/",
-  "GitHub #Git #code#hosting\nBuild software better, together.\n\nhttps://github.com",
-  "Slack #Tool #Development\nWe’re on a mission to make your working life simpler, more pleasant and more productive.\n\nhttps://slack.com",
   "Sauce Labs #Service #Test #Development\nAutomated testing in the cloud for CI.\n\nhttps://saucelabs.com/ @saucelabs",
   "sensu #Monitoring #Framework\nThe open source monitoring framework.\n\nhttp://sensuapp.org/",
   "KILL BILL #Billing #Payment #Platform\nOpen Source Subscription Billing & Payment Platform.\n\nhttp://killbill.io/",
@@ -59,6 +56,9 @@ var frameworkTweets = [
 
 var imageContentTweets = [
   ["bin/image/seldon.png", "seldon #OpenPredictive #Platform\nhttp://www.seldon.io/"],
+  ["bin/image/slack.png", "Slack https://slack.com\nWe’re on a mission to make your working life simpler, more pleasant, more productive"],
+  ["bin/image/github.png", "GitHub https://github.com #Git #code #hosting\nBuild software better, together."],
+  ["bin/image/angularjs.png", "AngularJS https://angularjs.org/ @angularjs #Javascript #Framework\nHTML enhanced for web apps!"]
 ];
 
 var T = new Twit({
@@ -75,8 +75,8 @@ var cronTime = '0 */30 * * * *'; // production
 new CronJob({
   cronTime: cronTime,
   onTick: function () {
-    var rnd = Math.floor( Math.random() * 50 );
-  	if (rnd < 49) {
+    var rnd = Math.floor( Math.random() * 13 );
+  	if (rnd < 12) {
   		tweet();
   	} else {
   		imageTweet();
