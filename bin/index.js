@@ -59,7 +59,8 @@ var imageContentTweets = [
   ["bin/image/bootstrap.png",  "BootStrap http://getbootstrap.com/ @getbootstrap #HTML #CSS\nDesigned for everyone, everywhere."],
   ["bin/image/rails.png",      "Ruby on Rails http://rubyonrails.org/ @rails #Ruby #Framework\nWeb development that doesn’t hurt"],
   ["bin/image/gitlab.png",     "Gitlab https://gitlab.com @gitlab #Git #code #management\nCreate, review and deploy code together"],
-  ["bin/image/Aurelia.png",    "Aurelia http://aurelia.io/ #Javascript #Framework\nAurelia is a next generation JavaScript client framework"]
+  ["bin/image/Aurelia.png",    "Aurelia http://aurelia.io/ #Javascript #Framework\nAurelia is a next generation JavaScript client framework"],
+  ["bin/image/CachetHQ.png",   "CachetHQ https://cachethq.io/ #OSS\nBeautiful & simple service statuses."]
 ];
 
 var T = new Twit({
