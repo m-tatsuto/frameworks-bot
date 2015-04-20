@@ -7,7 +7,6 @@ var fs = require('fs');
 
 var frameworkTweets = [
   "Phalcon #PHP #Framework\nThe fastest PHP Framework.\n\nhttp://phalconphp.com/ @phalconphp",
-  "Laravel #PHP #Framework\nThe PHP Framework For Web Artisans\n\nhttp://laravel.com/ @laravelphp",
   "Play #Java #Scala #Framework\nThe High Velocity Web Framework For Java and Scala\n\nhttps://www.playframework.com/ @playframework",
   "Underscore.js #Javascript #Framework\n\n\nhttp://underscorejs.org/",
   "Sinatra #Ruby #Framework\nDSL for quickly creating web applications \n\nhttp://www.sinatrarb.com/",
@@ -62,7 +61,8 @@ var imageContentTweets = [
   ["bin/image/Aurelia.png",    "Aurelia http://aurelia.io/ #Javascript #Framework\nAurelia is a next generation JavaScript client framework"],
   ["bin/image/CachetHQ.png",   "CachetHQ https://cachethq.io/ @cachethq #OSS\nBeautiful & simple service statuses."],
   ["bin/image/Lumen.png",      "Lumen. http://lumen.laravel.com/ #PHP #Laravel \nThe stunningly fast micro-framework by Laravel."],
-  ["bin/image/Airpal.png",     "Airpal http://airbnb.github.io/airpal/\nA web-based query execution tool built on top of Facebook's PrestoDB"]
+  ["bin/image/Airpal.png",     "Airpal http://airbnb.github.io/airpal/\nA web-based query execution tool built on top of Facebook's PrestoDB"],
+  ["bin/image/Laravel.png",    "Laravel http://laravel.com/ @laravelphp #PHP\nThe PHP Framework For Web Artisans"]
 ];
 
 var T = new Twit({
