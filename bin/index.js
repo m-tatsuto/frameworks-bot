@@ -26,7 +26,6 @@ var frameworkTweets = [
   "KILL BILL #Billing #Payment #Platform\nOpen Source Subscription Billing & Payment Platform.\n\nhttp://killbill.io/",
   "testmunk #Service #Test\nTHE FASTEST WAY TO TEST YOUR APP\n\nhttp://testmunk.com/",
   "UNDERSCORES #Wordpress #Theme\nCREATE YOUR UNDERSCORES BASED THEME\n\nhttp://underscores.me/",
-  "Yeoman #Tool #npm #Web\nTHE WEB'S SCAFFOLDING TOOL FOR MODERN WEBAPPS\n\nhttp://yeoman.io/",
   "Bower #Tool #npm #Web\nA package manager for the web\n\nhttp://bower.io",
   "Eclipse #Tool #Development\nAn amazing open source community of Tools, Projects and Collaborative Working Groups.\n\nhttp://eclipse.org",
   "AMIMOTO #WordPress #AMI #AWS #Nginx\nHigh Performance WordPress Cloud Hosting\n\nhttp://amimoto-ami.com/",
@@ -62,7 +61,8 @@ var imageContentTweets = [
   ["bin/image/CachetHQ.png",   "CachetHQ https://cachethq.io/ @cachethq #OSS\nBeautiful & simple service statuses."],
   ["bin/image/Lumen.png",      "Lumen. http://lumen.laravel.com/ #PHP #Laravel \nThe stunningly fast micro-framework by Laravel."],
   ["bin/image/Airpal.png",     "Airpal http://airbnb.github.io/airpal/\nA web-based query execution tool built on top of Facebook's PrestoDB"],
-  ["bin/image/Laravel.png",    "Laravel http://laravel.com/ @laravelphp #PHP\nThe PHP Framework For Web Artisans"]
+  ["bin/image/Laravel.png",    "Laravel http://laravel.com/ @laravelphp #PHP\nThe PHP Framework For Web Artisans"],
+  ["bin/image/Yeoman.png",     "Yeoman http://yeoman.io/ #Tool #npm #Web\nTHE WEB'S SCAFFOLDING TOOL FOR MODERN WEBAPPS"]
 ];
 
 var T = new Twit({
@@ -79,8 +79,8 @@ var cronTime = '0 */30 * * * *'; // production
 new CronJob({
   cronTime: cronTime,
   onTick: function () {
-    var rnd = Math.floor( Math.random() * 4 );
-    if (rnd < 3) {
+    var rnd = Math.floor( Math.random() * 3 );
+    if (rnd < 2) {
       tweet();
     } else {
       imageTweet();
