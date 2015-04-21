@@ -62,7 +62,8 @@ var imageContentTweets = [
   ["bin/image/Lumen.png",      "Lumen. http://lumen.laravel.com/ #PHP #Laravel \nThe stunningly fast micro-framework by Laravel."],
   ["bin/image/Airpal.png",     "Airpal http://airbnb.github.io/airpal/\nA web-based query execution tool built on top of Facebook's PrestoDB"],
   ["bin/image/Laravel.png",    "Laravel http://laravel.com/ @laravelphp #PHP\nThe PHP Framework For Web Artisans"],
-  ["bin/image/Yeoman.png",     "Yeoman http://yeoman.io/ #Tool #npm #Web\nTHE WEB'S SCAFFOLDING TOOL FOR MODERN WEBAPPS"]
+  ["bin/image/Yeoman.png",     "Yeoman http://yeoman.io/ #Tool #npm #Web\nTHE WEB'S SCAFFOLDING TOOL FOR MODERN WEBAPPS"],
+  ["bin/image/FuelPHP.png",    "FuelPHP http://fuelphp.com/ #PHP #MVC\nFuelPHP is a simple, flexible, community driven"]
 ];
 
 var T = new Twit({
