@@ -6,7 +6,7 @@ var fs = require('fs');
 //var http = require('http');
 
 var frameworkTweets = [
-  "Phalcon #PHP #Framework\nThe fastest PHP Framework.\n\nhttp://phalconphp.com/ @phalconphp",
+  "Phalcon http://phalconphp.com/ @phalconphp #PHP #Framework\nA full-stack PHP framework delivered as a C-extension",
   "Play #Java #Scala #Framework\nThe High Velocity Web Framework For Java and Scala\n\nhttps://www.playframework.com/ @playframework",
   "Underscore.js #Javascript #Framework\n\n\nhttp://underscorejs.org/",
   "Sinatra #Ruby #Framework\nDSL for quickly creating web applications \n\nhttp://www.sinatrarb.com/",
