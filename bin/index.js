@@ -18,7 +18,6 @@ var frameworkTweets = [
   "Drupal #CMS #Framework\nCome for the software, stay for the community\n\nhttps://www.drupal.org/",
   "CodeIgniter #PHP #Framework\n\n\nhttp://www.codeigniter.com/",
   "CapeDwarf #GoogleAppEngine\nCapeDwarf is an open-source alternative to Google App Engine\n\nhttp://capedwarf.org/",
-  "Socket.io #Javascript #NodeJS\nFEATURING THE FASTEST AND MOST RELIABLE REAL-TIME ENGINE\n\nhttp://socket.io/",
   "OpenShift #PaaS #Redhat\nDEVELOP, HOST, AND SCALE YOUR APPS IN THE CLOUD\n\nhttps://www.openshift.com/",
   "bitbucket #Git #code#hosting\nBitbucket is a free code DVCS hosting site for Git and Mercurial.\n\nhttps://bitbucket.org/",
   "Sauce Labs #Service #Test #Development\nAutomated testing in the cloud for CI.\n\nhttps://saucelabs.com/ @saucelabs",
@@ -26,7 +25,6 @@ var frameworkTweets = [
   "KILL BILL #Billing #Payment #Platform\nOpen Source Subscription Billing & Payment Platform.\n\nhttp://killbill.io/",
   "testmunk #Service #Test\nTHE FASTEST WAY TO TEST YOUR APP\n\nhttp://testmunk.com/",
   "UNDERSCORES #Wordpress #Theme\nCREATE YOUR UNDERSCORES BASED THEME\n\nhttp://underscores.me/",
-  "Bower #Tool #npm #Web\nA package manager for the web\n\nhttp://bower.io",
   "Eclipse #Tool #Development\nAn amazing open source community of Tools, Projects and Collaborative Working Groups.\n\nhttp://eclipse.org",
   "AMIMOTO #WordPress #AMI #AWS #Nginx\nHigh Performance WordPress Cloud Hosting\n\nhttp://amimoto-ami.com/",
   "flapjack.io #monitoring #Tool #Vagrant\nmonitoring notification routing + event processing system\n\nhttp://flapjack.io/",
@@ -65,7 +63,9 @@ var imageContentTweets = [
   ["bin/image/Yeoman.png",     "Yeoman http://yeoman.io/ #Tool #npm #Web\nTHE WEB'S SCAFFOLDING TOOL FOR MODERN WEBAPPS"],
   ["bin/image/FuelPHP.png",    "FuelPHP http://fuelphp.com/ #PHP #MVC\nFuelPHP is a simple, flexible, community driven"],
   ["bin/image/KeystoneJS.png", "KeystoneJS http://keystonejs.com/ @KeystoneJS #NodeJS #CMS\nNode.js CMS & Web Application Platform"],
-  ["bin/image/Kohana.png",     "Kohana http://kohanaframework.org/ #PHP #HMVC\nAn elegant HMVC PHP5 framework"]
+  ["bin/image/Kohana.png",     "Kohana http://kohanaframework.org/ #PHP #HMVC\nAn elegant HMVC PHP5 framework"],
+  ["bin/image/SocketIO.png",   "Socket.io http://socket.io/ #NodeJS \nFEATURING THE FASTEST AND MOST RELIABLE REAL-TIME ENGINE"],
+  ["bin/image/Bower.png",      "Bower #Tool #npm #Web\nA package manager for the web\n\nhttp://bower.io"]
 ];
 
 var T = new Twit({
