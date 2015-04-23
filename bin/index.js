@@ -7,7 +7,6 @@ var fs = require('fs');
 
 var frameworkTweets = [
   "Phalcon http://phalconphp.com/ @phalconphp #PHP #Framework\nA full-stack PHP framework delivered as a C-extension",
-  "Play #Java #Scala #Framework\nThe High Velocity Web Framework For Java and Scala\n\nhttps://www.playframework.com/ @playframework",
   "Underscore.js #Javascript #Framework\n\n\nhttp://underscorejs.org/",
   "Sinatra #Ruby #Framework\nDSL for quickly creating web applications \n\nhttp://www.sinatrarb.com/",
   "jQuery #Javascript #Library\nFast, small, and feature-rich JavaScript library\n\nhttp://jquery.com/",
@@ -65,7 +64,8 @@ var imageContentTweets = [
   ["bin/image/KeystoneJS.png", "KeystoneJS http://keystonejs.com/ @KeystoneJS #NodeJS #CMS\nNode.js CMS & Web Application Platform"],
   ["bin/image/Kohana.png",     "Kohana http://kohanaframework.org/ #PHP #HMVC\nAn elegant HMVC PHP5 framework"],
   ["bin/image/SocketIO.png",   "Socket.io http://socket.io/ #NodeJS \nFEATURING THE FASTEST AND MOST RELIABLE REAL-TIME ENGINE"],
-  ["bin/image/Bower.png",      "Bower #Tool #npm #Web\nA package manager for the web\n\nhttp://bower.io"]
+  ["bin/image/Bower.png",      "Bower http://bower.io @bower #Tool #npm #Web\nA package manager for the web"],
+  ["bin/image/Play.png",       "Play https://www.playframework.com/ @playframework #Java #Scala\nThe High Velocity Web Framework"]
 ];
 
 var T = new Twit({
