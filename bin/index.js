@@ -64,7 +64,8 @@ var imageContentTweets = [
   ["bin/image/Laravel.png",    "Laravel http://laravel.com/ @laravelphp #PHP\nThe PHP Framework For Web Artisans"],
   ["bin/image/Yeoman.png",     "Yeoman http://yeoman.io/ #Tool #npm #Web\nTHE WEB'S SCAFFOLDING TOOL FOR MODERN WEBAPPS"],
   ["bin/image/FuelPHP.png",    "FuelPHP http://fuelphp.com/ #PHP #MVC\nFuelPHP is a simple, flexible, community driven"],
-  ["bin/image/KeystoneJS.png", "KeystoneJS http://keystonejs.com/ @KeystoneJS #NodeJS #CMS\nNode.js CMS & Web Application Platform"]
+  ["bin/image/KeystoneJS.png", "KeystoneJS http://keystonejs.com/ @KeystoneJS #NodeJS #CMS\nNode.js CMS & Web Application Platform"],
+  ["bin/image/Kohana.png",     "Kohana http://kohanaframework.org/ #PHP #HMVC\nAn elegant HMVC PHP5 framework"]
 ];
 
 var T = new Twit({
