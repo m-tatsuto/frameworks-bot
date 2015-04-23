@@ -65,7 +65,8 @@ var imageContentTweets = [
   ["bin/image/Kohana.png",     "Kohana http://kohanaframework.org/ #PHP #HMVC\nAn elegant HMVC PHP5 framework"],
   ["bin/image/SocketIO.png",   "Socket.io http://socket.io/ #NodeJS \nFEATURING THE FASTEST AND MOST RELIABLE REAL-TIME ENGINE"],
   ["bin/image/Bower.png",      "Bower http://bower.io @bower #Tool #npm #Web\nA package manager for the web"],
-  ["bin/image/Play.png",       "Play https://www.playframework.com/ @playframework #Java #Scala\nThe High Velocity Web Framework"]
+  ["bin/image/Play.png",       "Play https://www.playframework.com/ @playframework #Java #Scala\nThe High Velocity Web Framework"],
+  ["bin/image/Revel.png",      "Revel http://revel.github.io/ @revelframework #Go\nA high-productivity web framework for the Go language."]
 ];
 
 var T = new Twit({
