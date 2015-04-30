@@ -68,7 +68,8 @@ var imageContentTweets = [
   ["bin/image/Play.png",       "Play https://www.playframework.com/ @playframework #Java #Scala\nThe High Velocity Web Framework"],
   ["bin/image/Revel.png",      "Revel http://revel.github.io/ @revelframework #Go\nA high-productivity web framework for the Go language."],
   ["bin/image/Prometheus.png", "Prometheus http://prometheus.io/ \n An open-source service monitoring system and time series database."],
-  ["bin/image/SailsJS.png",    "Sails.js http://sailsjs.org/ @sailsjs #NodeJS #MVC\nThe web framework of your dreams."]
+  ["bin/image/SailsJS.png",    "Sails.js http://sailsjs.org/ @sailsjs #NodeJS #MVC\nThe web framework of your dreams."],
+  ["bin/image/POSTMAN.png",    "POSTMAN https://www.getpostman.com/ @postmanclient #Chrome\nBuild,test, and document your APIs faster."]
 ];
 
 var T = new Twit({
