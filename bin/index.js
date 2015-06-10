@@ -1,13 +1,12 @@
-var app = require('../app');
-var Twit = require('twit');
+var app     = require('../app');
+var Twit    = require('twit');
 var CronJob = require("cron").CronJob;
-var moment = require('moment');
-var fs = require('fs');
+var moment  = require('moment');
+var fs      = require('fs');
 //var http = require('http');
 
 var frameworkTweets = [
   "Phalcon http://phalconphp.com/ @phalconphp #PHP #Framework\nA full-stack PHP framework delivered as a C-extension",
-  "Underscore.js #Javascript #Framework\n\n\nhttp://underscorejs.org/",
   "Sinatra #Ruby #Framework\nDSL for quickly creating web applications \n\nhttp://www.sinatrarb.com/",
   "jQuery #Javascript #Library\nFast, small, and feature-rich JavaScript library\n\nhttp://jquery.com/",
   "Materialize #CSS #Framework\nA modern responsive front-end framework based on Material Design\n\nhttp://materializecss.com/",
@@ -69,7 +68,8 @@ var imageContentTweets = [
   ["bin/image/Revel.png",      "Revel http://revel.github.io/ @revelframework #Go\nA high-productivity web framework for the Go language."],
   ["bin/image/Prometheus.png", "Prometheus http://prometheus.io/ \n An open-source service monitoring system and time series database."],
   ["bin/image/SailsJS.png",    "Sails.js http://sailsjs.org/ @sailsjs #NodeJS #MVC\nThe web framework of your dreams."],
-  ["bin/image/POSTMAN.png",    "POSTMAN https://www.getpostman.com/ @postmanclient #Chrome\nBuild,test, and document your APIs faster."]
+  ["bin/image/POSTMAN.png",    "POSTMAN https://www.getpostman.com/ @postmanclient #Chrome\nBuild,test, and document your APIs faster."],
+  ["bin/image/underscore.png", "Underscore.js http://underscorejs.org/ #Javascript #Framework"]
 ];
 
 var T = new Twit({
@@ -79,8 +79,6 @@ var T = new Twit({
   access_token_secret: app.get('options').token_secret
 });
 
-//var cronTime = '*/10 * * * * *'; // localtest
-//var cronTime = '0 */1 * * * *'; // servertest
 var cronTime = '0 */30 * * * *'; // production
 
 new CronJob({
