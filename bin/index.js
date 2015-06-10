@@ -70,7 +70,8 @@ var imageContentTweets = [
   ["bin/image/POSTMAN.png",    "POSTMAN https://www.getpostman.com/ @postmanclient #Chrome\nBuild,test, and document your APIs faster."],
   ["bin/image/underscore.png", "Underscore.js http://underscorejs.org/ #Javascript #Framework"],
   ["bin/image/T3.png",         "T3 http://t3js.org/\nT3 is a minimalist JavaScript framework that provides core structure to code"],
-  ["bin/image/MEANIO.png",     "MEAN.IO http://mean.io/ #Javascript #Framework\nMEAN is an opinionated fullstack javascript framework"]
+  ["bin/image/MEANIO.png",     "MEAN.IO http://mean.io/ #Javascript #Framework\nMEAN is an opinionated fullstack javascript framework"],
+  ["bin/image/jsbook.jpg",     "Books for Javascript Learning http://goo.gl/uxRL6G #Javascript #Amazon #Book"]
 ];
 
 var T = new Twit({
