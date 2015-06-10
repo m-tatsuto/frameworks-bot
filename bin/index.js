@@ -25,7 +25,6 @@ var frameworkTweets = [
   "Eclipse #Tool #Development\nAn amazing open source community of Tools, Projects and Collaborative Working Groups.\n\nhttp://eclipse.org",
   "AMIMOTO #WordPress #AMI #AWS #Nginx\nHigh Performance WordPress Cloud Hosting\n\nhttp://amimoto-ami.com/",
   "flapjack.io #monitoring #Tool #Vagrant\nmonitoring notification routing + event processing system\n\nhttp://flapjack.io/",
-  "RECAPTCHA #Security \nProtect your website from spam and abuse while letting real people pass through with ease\n\nhttp://goo.gl/2s0Mci",
   "Chaplin #Javascript #bower\nChaplin is an architecture for JavaScript applications using the Backbone.js.\n\nhttp://chaplinjs.org/",
   "gulpjs #nodejs #workflow #Automate\nAutomate and enhance your workflow\n\nhttp://gulpjs.com/ @gulpjs",
   "RethinkDB #Database\nAn open-source distributed database built with love.\n\nhttp://www.rethinkdb.com/",
@@ -72,7 +71,8 @@ var imageContentTweets = [
   ["bin/image/T3.png",         "T3 http://t3js.org/\nT3 is a minimalist JavaScript framework that provides core structure to code"],
   ["bin/image/MEANIO.png",     "MEAN.IO http://mean.io/ #Javascript #Framework\nMEAN is an opinionated fullstack javascript framework"],
   ["bin/image/jsbook.jpg",     "Books for Javascript Learning http://goo.gl/uxRL6G #Javascript #Amazon #Book"],
-  ["bin/image/PrimeUI.png",    "PrimeUI http://www.primefaces.org/primeui/ #Javascript #jQuery #CSS #Library"]
+  ["bin/image/PrimeUI.png",    "PrimeUI http://www.primefaces.org/primeui/ #Javascript #jQuery #CSS #Library"],
+  ["bin/image/reCAPTCHA.png",  "RECAPTCHA http://goo.gl/2s0Mci #Security\nProtect your website from spam and abuse"]
 ];
 
 var T = new Twit({
