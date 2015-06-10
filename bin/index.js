@@ -31,7 +31,6 @@ var frameworkTweets = [
   "Capybara #Ruby #Test\nTest your app with Capybara\ngem install capybara\n\nhttp://jnicklas.github.io/capybara/",
   "Slim #PHP\na PHP micro framework that helps you quickly write simple yet powerful web applications and APIs\n\nhttp://goo.gl/2hXfB9",
   "Bourbon #CSS #Sass #Library\nA simple and lightweight mixin library for Sass.\n\nhttp://bourbon.io/",
-  "Deployd #API #Design #Build #Opensource\nTHE SIMPLEST WAY TO BUILD AN API.\n\nhttp://deployd.com/ @deploydapp",
   "Ionic #hybrid #mobile #platform #SDK\nThe world's first full-stack hybrid mobile platform\n\nhttp://ionic.io/ @Ionicframework",
   "tsuru #Paas #Opensource\nTsuru is an extensible and open source Platform as a Service software.\n\nhttps://tsuru.io/",
   "Gunicorn #Python #WSGI\nGunicorn 'Green Unicorn' is a Python WSGI HTTP Server for UNIX.\n\nhttp://gunicorn.org/",
@@ -72,7 +71,8 @@ var imageContentTweets = [
   ["bin/image/MEANIO.png",     "MEAN.IO http://mean.io/ #Javascript #Framework\nMEAN is an opinionated fullstack javascript framework"],
   ["bin/image/jsbook.jpg",     "Books for Javascript Learning http://goo.gl/uxRL6G #Javascript #Amazon #Book"],
   ["bin/image/PrimeUI.png",    "PrimeUI http://www.primefaces.org/primeui/ #Javascript #jQuery #CSS #Library"],
-  ["bin/image/reCAPTCHA.png",  "RECAPTCHA http://goo.gl/2s0Mci #Security\nProtect your website from spam and abuse"]
+  ["bin/image/reCAPTCHA.png",  "RECAPTCHA http://goo.gl/2s0Mci #Security\nProtect your website from spam and abuse"],
+  ["bin/image/Deployd.png",    "Deployd http://deployd.com/ @deploydapp #API #Design #Build #Opensource\nTHE SIMPLEST WAY TO BUILD AN API."]
 ];
 
 var T = new Twit({
