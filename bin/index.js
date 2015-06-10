@@ -11,7 +11,6 @@ var frameworkTweets = [
   "jQuery #Javascript #Library\nFast, small, and feature-rich JavaScript library\n\nhttp://jquery.com/",
   "Materialize #CSS #Framework\nA modern responsive front-end framework based on Material Design\n\nhttp://materializecss.com/",
   "MEAN.JS #Javascript #Framework\nOpen-Source Full-Stack Solution For MEAN Applications\n\nhttp://meanjs.org/",
-  "MEAN.IO #Javascript #Framework\nMEAN is an opinionated fullstack javascript framework\n\nhttp://mean.io/",
   "Django #Python #Framework\nDjango makes it easier to build better Web apps more quickly and with less code.\n\nhttps://www.djangoproject.com/",
   "Drupal #CMS #Framework\nCome for the software, stay for the community\n\nhttps://www.drupal.org/",
   "CodeIgniter #PHP #Framework\n\n\nhttp://www.codeigniter.com/",
@@ -70,7 +69,8 @@ var imageContentTweets = [
   ["bin/image/SailsJS.png",    "Sails.js http://sailsjs.org/ @sailsjs #NodeJS #MVC\nThe web framework of your dreams."],
   ["bin/image/POSTMAN.png",    "POSTMAN https://www.getpostman.com/ @postmanclient #Chrome\nBuild,test, and document your APIs faster."],
   ["bin/image/underscore.png", "Underscore.js http://underscorejs.org/ #Javascript #Framework"],
-  ["bin/image/T3.png",         "T3 http://t3js.org/\nT3 is a minimalist JavaScript framework that provides core structure to code"]
+  ["bin/image/T3.png",         "T3 http://t3js.org/\nT3 is a minimalist JavaScript framework that provides core structure to code"],
+  ["bin/image/MEANIO.png",     "MEAN.IO http://mean.io/ #Javascript #Framework\nMEAN is an opinionated fullstack javascript framework"]
 ];
 
 var T = new Twit({
