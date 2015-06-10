@@ -69,7 +69,8 @@ var imageContentTweets = [
   ["bin/image/Prometheus.png", "Prometheus http://prometheus.io/ \n An open-source service monitoring system and time series database."],
   ["bin/image/SailsJS.png",    "Sails.js http://sailsjs.org/ @sailsjs #NodeJS #MVC\nThe web framework of your dreams."],
   ["bin/image/POSTMAN.png",    "POSTMAN https://www.getpostman.com/ @postmanclient #Chrome\nBuild,test, and document your APIs faster."],
-  ["bin/image/underscore.png", "Underscore.js http://underscorejs.org/ #Javascript #Framework"]
+  ["bin/image/underscore.png", "Underscore.js http://underscorejs.org/ #Javascript #Framework"],
+  ["bin/image/T3.png",         "T3 http://t3js.org/\nT3 is a minimalist JavaScript framework that provides core structure to code"]
 ];
 
 var T = new Twit({
