@@ -86,8 +86,8 @@ var cronTime = '0 */30 * * * *'; // production
 new CronJob({
   cronTime: cronTime,
   onTick: function () {
-    var rnd = Math.floor( Math.random() * 5 );
-    if (rnd < 3) {
+    var rnd = Math.floor( Math.random() * 4 );
+    if (rnd < 2) {
       tweet();
     } else {
       imageTweet();
