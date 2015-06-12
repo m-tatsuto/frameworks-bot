@@ -6,7 +6,6 @@ var fs      = require('fs');
 //var http = require('http');
 
 var frameworkTweets = [
-  "Phalcon http://phalconphp.com/ @phalconphp #PHP #Framework\nA full-stack PHP framework delivered as a C-extension",
   "Sinatra #Ruby #Framework\nDSL for quickly creating web applications \n\nhttp://www.sinatrarb.com/",
   "jQuery #Javascript #Library\nFast, small, and feature-rich JavaScript library\n\nhttp://jquery.com/",
   "Materialize #CSS #Framework\nA modern responsive front-end framework based on Material Design\n\nhttp://materializecss.com/",
@@ -72,7 +71,8 @@ var imageContentTweets = [
   ["bin/image/jsbook.jpg",     "Books for Javascript Learning http://goo.gl/uxRL6G #Javascript #Amazon #Book"],
   ["bin/image/PrimeUI.png",    "PrimeUI http://www.primefaces.org/primeui/ #Javascript #jQuery #CSS #Library"],
   ["bin/image/reCAPTCHA.png",  "RECAPTCHA http://goo.gl/2s0Mci #Security\nProtect your website from spam and abuse"],
-  ["bin/image/Deployd.png",    "Deployd http://deployd.com/ @deploydapp #API #Design #Build #Opensource\nTHE SIMPLEST WAY TO BUILD AN API."]
+  ["bin/image/Deployd.png",    "Deployd http://deployd.com/ @deploydapp #API #Design #Build #Opensource\nTHE SIMPLEST WAY TO BUILD AN API."],
+  ["bin/image/Phalcon.jpeg",   "Phalcon http://phalconphp.com/ @phalconphp #PHP \nA full-stack PHP framework delivered as a C-extension"]
 ];
 
 var T = new Twit({
