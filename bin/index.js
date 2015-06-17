@@ -72,7 +72,8 @@ var imageContentTweets = [
   ["bin/image/PrimeUI.png",    "PrimeUI http://www.primefaces.org/primeui/ #Javascript #jQuery #CSS #Library"],
   ["bin/image/reCAPTCHA.png",  "RECAPTCHA http://goo.gl/2s0Mci #Security\nProtect your website from spam and abuse"],
   ["bin/image/Deployd.png",    "Deployd http://deployd.com/ @deploydapp #API #Design #Build #Opensource\nTHE SIMPLEST WAY TO BUILD AN API."],
-  ["bin/image/Phalcon.jpeg",   "Phalcon http://phalconphp.com/ @phalconphp #PHP \nA full-stack PHP framework delivered as a C-extension"]
+  ["bin/image/Phalcon.jpeg",   "Phalcon http://phalconphp.com/ @phalconphp #PHP \nA full-stack PHP framework delivered as a C-extension"],
+  ["bin/image/FEngine.png",    "FamousEngine http://famous.org/ #Javascript\nHigh-performance javascript library for animations&interfaces"]
 ];
 
 var T = new Twit({
