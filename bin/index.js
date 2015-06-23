@@ -73,7 +73,8 @@ var imageContentTweets = [
   ["bin/image/reCAPTCHA.png",  "RECAPTCHA http://goo.gl/2s0Mci #Security\nProtect your website from spam and abuse"],
   ["bin/image/Deployd.png",    "Deployd http://deployd.com/ @deploydapp #API #Design #Build #Opensource\nTHE SIMPLEST WAY TO BUILD AN API."],
   ["bin/image/Phalcon.jpeg",   "Phalcon http://phalconphp.com/ @phalconphp #PHP \nA full-stack PHP framework delivered as a C-extension"],
-  ["bin/image/FEngine.png",    "FamousEngine http://famous.org/ #Javascript\nHigh-performance javascript library for animations&interfaces"]
+  ["bin/image/FEngine.png",    "FamousEngine http://famous.org/ #Javascript\nHigh-performance javascript library for animations&interfaces"],
+  ["bin/image/polymer.png",    "Polymer https://www.polymer-project.org \nPolymer has been rebuilt from the ground up for speed & efficiency."]
 ];
 
 var T = new Twit({
