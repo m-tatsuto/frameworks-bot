@@ -34,10 +34,12 @@ var frameworkTweets = [
   "tsuru #Paas #Opensource\nTsuru is an extensible and open source Platform as a Service software.\n\nhttps://tsuru.io/",
   "Gunicorn #Python #WSGI\nGunicorn 'Green Unicorn' is a Python WSGI HTTP Server for UNIX.\n\nhttp://gunicorn.org/",
   "Sidekiq #Ruby\nSimple, efficient background processing for Ruby.\n\nhttp://sidekiq.org/ @sidekiq",
-  "cdnjs.com https://cdnjs.com/ #CDN #Search #JavaScript #CSS #SWF #images"
+  "cdnjs.com https://cdnjs.com/ #CDN #Search #JavaScript #CSS #SWF #images",
+  "Seeds.js http://docs.seedsjs.com #FullStack #JavaScript #Framework #Ember #Sails #Semanticui\n"
 ];
 
 var imageContentTweets = [
+  ["bin/image/seedsJS.png",    "Seeds.js http://docs.seedsjs.com\n#FullStack #JavaScript #Ember #Sails #Semanticui\n"],
   ["bin/image/seldon.png",     "seldon #OpenPredictive #Platform\nhttp://www.seldon.io/"],
   ["bin/image/slack.png",      "Slack https://slack.com\nWe’re on a mission to make your working life simpler, more pleasant, more productive"],
   ["bin/image/github.png",     "GitHub https://github.com #Git #code #hosting\nBuild software better, together."],
